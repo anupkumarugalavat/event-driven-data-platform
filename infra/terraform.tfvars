@@ -2,6 +2,9 @@ aws_region = "us-east-1"
 prefix     = "member-org-001"
 valid_orgs = "ORG-123,ORG-456,UHD-DATA-01"
 
-# create an ECR repository and push your Docker image there first.
-# Format: <account_id>.dkr.ecr.<region>.amazonaws.com/<repo_name>:<tag>
-container_image = "123456789012.dkr.ecr.us-east-1.amazonaws.com/processor-app:latest"
+# FIX: container_image is now blank. The ecs.tf task definition uses the
+# official public Python slim image and fetches processor.py from S3 at
+# runtime, so no ECR image needs to be built or pushed for the demo.
+# To use a private ECR image in production, set this to the full ECR URI
+# and remove the command override in ecs.tf.
+container_image = ""
