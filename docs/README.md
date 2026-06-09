@@ -1,4 +1,4 @@
-# 🌟 Uni-Heidelberg Dataworks
+# 🌟 event-driven-data-platform
 
 [![AWS](https://img.shields.io/badge/AWS-Cloud-orange)](https://aws.amazon.com/)
 [![Terraform](https://img.shields.io/badge/Terraform-7B42BC)](https://www.terraform.io/)
