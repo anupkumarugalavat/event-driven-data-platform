@@ -42,8 +42,8 @@ Before deploying this project, ensure you have the following:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/anupkumarugalavat/uni-heidelberg-dataworks.git
-   cd uni-heidelberg-dataworks
+   git clone https://github.com/anupkumarugalavat/event-driven-data-platform.git
+   cd event-driven-data-platform
    ```
 
 2. **Configure Terraform Variables**:
